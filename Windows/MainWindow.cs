@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Created by Norbert Lubaszka
+// Contact: norbert.lubaszka@gmail.com
+// All rights reserved ©
+// If you want to use the source code contact me
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
