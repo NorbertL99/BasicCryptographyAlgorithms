@@ -1,0 +1,24 @@
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\bin\Debug\Basic Cryptography Algorithms.exe.config
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\bin\Debug\Basic Cryptography Algorithms.exe
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\bin\Debug\Basic Cryptography Algorithms.pdb
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic_Cryptography_Algorithms.Properties.Resources.resources
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic_Cryptography_Algorithms.MainWindow.resources
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.exe
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.pdb
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic_Cryptography_Algorithms.Windows.UserControls.DESControl.resources
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic_Cryptography_Algorithms.Windows.UserControls.RSAControl.resources
+C:\Users\user\source\repos\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.csprojAssemblyReference.cache
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\bin\Debug\Basic Cryptography Algorithms.exe.config
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\bin\Debug\Basic Cryptography Algorithms.exe
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\bin\Debug\Basic Cryptography Algorithms.pdb
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.csprojAssemblyReference.cache
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic_Cryptography_Algorithms.Properties.Resources.resources
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic_Cryptography_Algorithms.MainWindow.resources
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic_Cryptography_Algorithms.Windows.UserControls.DESControl.resources
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic_Cryptography_Algorithms.Windows.UserControls.RSAControl.resources
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.csproj.GenerateResource.cache
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.csproj.CoreCompileInputs.cache
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.exe
+G:\programyportfolio\Basic Cryptography Algorithms\Basic Cryptography Algorithms\obj\Debug\Basic Cryptography Algorithms.pdb

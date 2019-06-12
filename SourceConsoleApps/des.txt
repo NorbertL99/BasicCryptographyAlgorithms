@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Security.Cryptography;
+using System.IO;
+
+namespace ConsoleApp9
+{
+    class Program
+    {
+        private static byte[] keyBytes = Encoding.ASCII.GetBytes("aaaaaaaa"); 
+        private static byte[] ivBytes = Encoding.ASCII.GetBytes("aaaaaaaa");
+        static void Main(string[] args)
+        {
+            int encryptValue = 1;
+            string text = desEncryption(Console.ReadLine());
+            for(int i = 0; i < encryptValue; i++)
+            {
+                text = desEncryption(text);
+            }
+            Console.WriteLine(text);
+            for (int i = 0; i < encryptValue + 1; i++)
+            {
+                text = desDecryption(text);
+                Console.WriteLine(text);
+            }
+            Console.ReadLine();
+        }
+        public static string desEncryption(string text)
+        {
+            string finalEncryption = string.Empty;
+            byte[] textBytes = Encoding.ASCII.GetBytes(text);
+
+            using (DESCryptoServiceProvider cryptoServiceProvider = new DESCryptoServiceProvider())
+            {
+                cryptoServiceProvider.KeySize = 64;
+                cryptoServiceProvider.BlockSize = 64;
+
+                MemoryStream memoryStream = new MemoryStream();
+                using (CryptoStream cryptoStream = new CryptoStream(memoryStream, cryptoServiceProvider.CreateEncryptor(keyBytes, ivBytes), CryptoStreamMode.Write))
+                {
+                    StreamWriter streamWriter = new StreamWriter(cryptoStream);
+                    streamWriter.Write(text);
+                    streamWriter.Flush();
+                    cryptoStream.FlushFinalBlock();
+                    finalEncryption = Convert.ToBase64String(memoryStream.GetBuffer(), 0, (int)memoryStream.Length);
+                }
+            }
+            return finalEncryption;
+        }
+
+        public static string desDecryption(string encryptedText)
+        {
+            string finalDecryption = string.Empty;
+            byte[] encryptedPlainTextBytes = Encoding.ASCII.GetBytes(encryptedText);
+
+            using (DESCryptoServiceProvider cryptoServiceProvider = new DESCryptoServiceProvider())
+            {
+                cryptoServiceProvider.KeySize = 64;
+                cryptoServiceProvider.BlockSize = 64;
+
+                MemoryStream memoryStream = new MemoryStream(Convert.FromBase64String(encryptedText));
+                using (CryptoStream cryptoStream = new CryptoStream(memoryStream, cryptoServiceProvider.CreateDecryptor(keyBytes, ivBytes), CryptoStreamMode.Read))
+                {
+                    StreamReader streamReader = new StreamReader(cryptoStream);
+                    finalDecryption = streamReader.ReadToEnd();
+                }
+            }
+            return finalDecryption;
+        }
+    }
+}
